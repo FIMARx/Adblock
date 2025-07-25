@@ -1,19 +1,37 @@
-! Works for AdGuard – Snapchat Ad Block List
-||ads.snapchat.com^
-||tr.snapchat.com^
-||snapads.com^
-||sc-static.net^
-||snapkit.com^
-||snapchat.com/api/ads^
-||adsapi.snapchat.com^
-||asia-southeast1-gcp.api.snapchat.com^
-||aws-cf.api.snapchat.com^
-||app-analytics.snapchat.com^
-||app-analytics-v2.snapchat.com^
-||euw.adserver.snapads.com^
-||ads-interfaces.sc-cdn.net^
-||ase.adserver.snapads.com^
-||usc.adserver.snapads.com^
-||use.adserver.snapads.com^
-||us-east1-aws.api.snapchat.com^
-||bolt-gcdn.sc-cdn.net^
+# Custom Snapchat Ad Blocklist for NextDNS
+# Includes regex and domain rules
+
+# Regex rules (for advanced blocking, if supported)
+(\.|^)snapads\.com$
+(\.|^)ads\.snapchat\.com$
+(\.|^)tr\.snapchat\.com$
+(\.|^)adsapi\.snapchat\.com$
+(\.|^)app-analytics(-v2)?\.snapchat\.com$
+(\.|^)adserver\.snapads\.com$
+(\.|^)sc-static\.net$
+(\.|^)snapkit\.com$
+(\.|^)snapchat\.com/api/ads$
+(\.|^)sc-cdn\.net$
+(\.|^)gcp\.api\.snapchat\.com$
+(\.|^)aws\.api\.snapchat\.com$
+
+# Domain rules (fallback if regex is not supported)
+snapads.com
+ads.snapchat.com
+tr.snapchat.com
+adsapi.snapchat.com
+app-analytics.snapchat.com
+app-analytics-v2.snapchat.com
+euw.adserver.snapads.com
+ase.adserver.snapads.com
+usc.adserver.snapads.com
+use.adserver.snapads.com
+sc-static.net
+snapkit.com
+snapchat.com
+snapchat.com/api/ads
+ads-interfaces.sc-cdn.net
+bolt-gcdn.sc-cdn.net
+asia-southeast1-gcp.api.snapchat.com
+aws-cf.api.snapchat.com
+us-east1-aws.api.snapchat.com
