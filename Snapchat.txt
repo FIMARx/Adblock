@@ -1,7 +1,19 @@
-! AdGuard
-||snapchat-proxy.appspot.com^
-||gtq6.sct.sc-prod.net^
-||aw.sc-cdn.net^
-||gcs.sc-cdn.net^
-||topic-sticker-vending.snapchat.com^
-||us-central1-gcp.api.snapchat.com^
+! Works for AdGuard – Snapchat Ad Block List
+||ads.snapchat.com^
+||tr.snapchat.com^
+||snapads.com^
+||sc-static.net^
+||snapkit.com^
+||snapchat.com/api/ads^
+||adsapi.snapchat.com^
+||asia-southeast1-gcp.api.snapchat.com^
+||aws-cf.api.snapchat.com^
+||app-analytics.snapchat.com^
+||app-analytics-v2.snapchat.com^
+||euw.adserver.snapads.com^
+||ads-interfaces.sc-cdn.net^
+||ase.adserver.snapads.com^
+||usc.adserver.snapads.com^
+||use.adserver.snapads.com^
+||us-east1-aws.api.snapchat.com^
+||bolt-gcdn.sc-cdn.net^
